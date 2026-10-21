@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fuga da Cobra</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer ></script>
+</head>
+<body>
+<div id="app">
+  <div id="hud">
+    <span>Fase <b id="lv">1</b>/10</span>
+    <span>Pontos <b id="sc">0</b></span>
+    <span>Itens <b id="it">0/0</b></span>
+    <span>💀 Mortes <b id="dt">0</b></span>
+    <span>☠ Ácido <b id="ac">0%</b></span>
+    <span id="rs">↻ Reiniciar <b>(R)</b></span>
+  </div>
+  <div id="wrap">
+    <canvas id="c"></canvas>
+    <div id="overlay">
+      <h1 id="ot"></h1>
+      <p id="om"></p>
+      <input id="nick" maxlength="12" placeholder="Seu nick" autocomplete="off">
+      <div id="rk"></div>
+      <button id="btn"></button>
+      <button id="btn2" class="alt"></button>
+    </div>
+  </div>
+  <div id="hint">Moedas 10 · Moscas 50 · Tudo = +100 · O ÁCIDO SOBE: corra! · R = reiniciar</div>
+</div>
+
+</body>
+</html>
